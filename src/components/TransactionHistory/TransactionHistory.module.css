@@ -1,0 +1,40 @@
+.table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 80%;
+
+  table-layout: fixed;
+  border-collapse: collapse;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+
+  text-align: center;
+}
+
+.tableHeader {
+  width: 33%;
+  color: white;
+  background-color: #516eff;
+  text-transform: uppercase;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+.tableHeader th {
+  border: 1px solid#aaa;
+}
+
+.tableBody td {
+  color: black;
+  border: 1px solid#aaa;
+}
+
+.tableBodyElem:nth-child(odd) {
+  background-color: rgba(87, 163, 255, 0.103);
+}
