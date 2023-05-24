@@ -57,7 +57,8 @@
 .label {
   display: block;
   padding-bottom: 8px;
-  color: #838383;
+  font-weight: 800;
+  color: #2c9ffe;
 }
 
 .quantity {
